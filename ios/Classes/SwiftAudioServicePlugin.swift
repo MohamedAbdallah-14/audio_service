@@ -97,6 +97,7 @@ public class SwiftAudioServicePlugin: NSObject, FlutterPlugin, PlayerActions {
             
         case "addQueueItem",
              "removeQueueItem",
+             "seekTo",
              "click",
              "prepareFromMediaId",
              "playFromMediaId",
@@ -105,7 +106,6 @@ public class SwiftAudioServicePlugin: NSObject, FlutterPlugin, PlayerActions {
             result(true)
             
         case "stop",
-             "seekTo",
              "skipToNext",
              "skipToPrevious",
              "fastForward",
